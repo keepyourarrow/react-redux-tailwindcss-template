@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        "72": "18rem",
-        "80": "20rem",
+        72: "18rem",
+        80: "20rem",
       },
     },
     customForms: (theme) => ({
@@ -25,5 +25,5 @@ module.exports = {
   variants: {
     backgroundColor: ["responsive", "hover", "focus", "active"],
   },
-  plugins: [require("@tailwindcss/custom-forms")],
+  plugins: [],
 };
